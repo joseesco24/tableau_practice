@@ -1,6 +1,0 @@
-version: "3.8"
-
-services:
-  postgres_bi_database_app:
-    container_name: postgres_bi_database
-    image: ghcr.io/joseesco24/postgres_bi_database:latest

@@ -1,8 +1,0 @@
-version: "3.8"
-
-services:
-  postgres_bi_database_app:
-    image: ghcr.io/joseesco24/postgres_bi_database:latest
-    build:
-      dockerfile: Dockerfile
-      context: ../.
