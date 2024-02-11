@@ -8,10 +8,9 @@
 	},
 	"readme": "readme.md",
 	"scripts": {
-		"docker-build-postgres-bi-database-image": "docker compose -f src/postgres_bi_database/compose/image.build.yaml build",
 		"docker-build-tableau-bridge-image": "docker compose -f src/tableau_bridge/compose/image.build.yaml build",
-		"docker-tableau-bridge-stal-stop": "docker compose -f src/tableau_bridge/compose/standalone.yaml down",
-		"docker-tableau-bridge-stal-start": "docker compose -f src/tableau_bridge/compose/standalone.yaml up",
+		"docker-tableau-bridge-stop": "docker compose -f src/tableau_bridge/compose/standalone.yaml down",
+		"docker-tableau-bridge-start": "docker compose -f src/tableau_bridge/compose/standalone.yaml up",
 		"docker-tableau-bridge-it": "docker exec -it tableau_bridge sh",
 		"commitmsg": "bash hooks/commit-msg.sh",
 		"precommit": "bash hooks/pre-commit.sh",
