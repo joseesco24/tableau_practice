@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  tableau_bridge_app:
+    image: ghcr.io/joseesco24/tableau_bridge:latest
+    build:
+      dockerfile: Dockerfile
+      context: ../.

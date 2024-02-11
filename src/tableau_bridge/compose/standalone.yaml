@@ -1,0 +1,6 @@
+version: "3.8"
+
+services:
+  tableau_bridge_app:
+    container_name: tableau_bridge
+    image: ghcr.io/joseesco24/tableau_bridge:latest
